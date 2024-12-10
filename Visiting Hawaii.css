@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+   
+}
+.text p{
+    font-family: georgia;
+    color: rgb(9 219 200);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    margin-left: 3%;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 4%;
+    left: 33%;
+   
+    border-radius: 150px;
+    display: flex;
+    padding: 3px;    
+    float: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: Georgia;
+    color: rgb(43 178 166);
+    font-size: 25px;
+    box-shadow: 0 10px 25px rgb(18 235 255 / 55%);
+    border: 3px solid rgb(45 255 247 / 100%);
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgb(5 21 22 / 55%);
+    
+    
+}
+nav ul li a:hover{
+    transition: .3s;
+    color: #05f4ef;
+}
+
+.attractions, .activities, .tips {
+    max-width: 700px;
+    margin: 6rem auto;
+    background-color: #bbf0f9;
+    box-shadow: 0 10px 25px rgb(18 235 255 / 55%);
+    border: 3px solid rgb(45 255 247 / 100%);
+    border-radius: 10px;
+}
+
+.attractions h2, .activities h2, .tips h2 {
+    color:rgb(9 219 200);
+    margin-bottom: 1rem;
+}
+
+.card {
+    margin: 1rem auto;
+    max-width: 600px;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 0.5rem 1rem;
+    color: rgb(9 219 200);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.card p {
+    margin: 0.5rem 1rem;
+    font-family: math;
+    color: rgb(0 140 144);
+    font-size: 17px;
+   
+}
+
+.activities ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    font-family: math;
+    color: #009688fa;
+    font-size: 16px;
+}
+
+.activities li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    text-indent: -1.5rem;
+}
+
+.activities li:before {
+    content: "🌴";
+    margin-right: 0.5rem;
+}
+
+.tips ol {
+    list-style: decimal;
+    margin: 1rem 0;
+    padding-left: 2rem;
+    font-family: math;
+    color: #009688fa;
+    font-size: 16px;
+}
+
+.tips li {
+    margin: 0.5rem 0;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+
+    color: #d8c3c3;
+}

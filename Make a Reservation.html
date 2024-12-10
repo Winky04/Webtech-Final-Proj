@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaii</title>
+    <link rel="stylesheet" href="Make a Reservation.css">
+</head>
+<body>   
+    
+        <div class="text"><p> BOOK NOW! </p></div>
+        <nav>
+            <ul>
+             <li><a href="Accommodation.html">Accommodation</a></li>
+             <li><a href="Visiting Hawaii.html">Visiting Hawaii</a></li> 
+             <li><a href="Make a Reservation.html">Make a Reservation</a></li>
+             <li><a href="home.html">Home</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="home" class="reservation-form">
+                <h2>Book Your Stay</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-in">Check-In Date:</label>
+                        <input type="date" id="check-in" name="check-in" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-out">Check-Out Date:</label>
+                        <input type="date" id="check-out" name="check-out" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Number of Guests:</label>
+                        <input type="number" id="guests" name="guests" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="room-type">Room Type:</label>
+                        <select id="room-type" name="room-type" required>
+                            <option value="standard">Standard Room</option>
+                            <option value="deluxe">Deluxe Room</option>
+                            <option value="suite">Suite</option>
+                        </select>
+                    </div>
+                    <button type="submit">Reserve Now</button>
+                </form>
+            </section>
+    
+            <section id="visiting-hawaii">
+                <h2>Visiting Hawaii</h2>
+                <p> Discover the rich culture, stunning beaches, and breathtaking landscapes of Hawaii. 
+                    If you've got Hawaii on your mind for your next vacation, you're in for a tropical treat like no other. 
+                    Hawaii is more than just a destination; it's a whole vibe! With its pristine beaches, volcanic wonders, 
+                    and a cultural tapestry as colorful as a rainbow, the islands offer something for everyone. 
+                    Whether you're a sun-soaker, an outdoor explorer, or a history buff, Hawaii's got your back.</p>
+            </section>
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 Hawaii. All rights reserved.</p>
+        </footer>
+        <script src="Make a Reservation.js" defer></script>
+    </body>
+    </html>
